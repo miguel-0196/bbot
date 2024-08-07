@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "name": "balance-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "pm2 start index.js"
+  },
+  "author": "Panda",
+  "license": "ISC",
+  "description": "Check EVM Chain wallets balance and then notify with telegram bot."
+}
